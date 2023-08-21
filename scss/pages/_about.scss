@@ -1,0 +1,136 @@
+.section-company__info-page {
+  background-color: $pink-silver-color;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 8rem;
+  border-radius: 15px;
+  margin-bottom: 16rem;
+}
+.section-company__text-info__h1 {
+  color: $white-color;
+}
+.section-company__text-info__pp {
+  width: 100%;
+  max-width: 458px;
+  color: $white-color;
+}
+.section-company__images-info2 {
+  order: -1;
+}
+.section-company__info-page2 {
+  justify-content: baseline;
+  background-color: #fdf3f0;
+  display: flex;
+  align-items: center;
+  gap: 8rem;
+  border-radius: 15px;
+}
+.section-company__images2 {
+  border-radius: 15px;
+  width: 100%;
+}
+.section-company__images {
+  width: 100%;
+}
+.section-company__text-info__h12 {
+  color: $pink-silver-color;
+}
+.section-company__text-info__pp2 {
+  width: 100%;
+  max-width: 445px;
+}
+@media screen and (max-width: 768px) {
+  .section-company__info-page {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .section-company__info-page2 {
+    flex-direction: column;
+    text-align: center;
+  }
+  .truzim__container {
+    flex-direction: column;
+  }
+  .truzim__images {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .truzim__info {
+    margin-bottom: 5rem;
+  }
+  .about-info2__title-info {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 375px) {
+  .section-company__text-info__h1 {
+    font-size: 3.2rem;
+  }
+  .section-company__text-info {
+    font-size: 1.2rem;
+    width: 100%;
+    max-width: 327px;
+    margin-bottom: 2rem;
+  }
+  .truzim__container {
+    flex-direction: column;
+  }
+  .truzim__info {
+    margin-bottom: 5rem;
+  }
+  .about-info2__title-info {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+}
+.truzim {
+}
+.truzim__container {
+  padding-top: 16rem;
+  padding-bottom: 16rem;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.truzim__info {
+}
+.truzim__images {
+  margin-bottom: 4.8rem;
+}
+.truzim__h5 {
+  margin-bottom: 3.2rem;
+}
+.light-btn {
+}
+.btn {
+}
+
+// ftitkytkyt
+.about-info2 {
+  margin-bottom: 16rem;
+}
+.about-info2__container {
+}
+.about-info2__info {
+  background-color: #fdf3f0;
+
+  border-radius: 15px;
+}
+.about-info2__title-info {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 8rem;
+}
+.about-info2__images {
+  width: 100%;
+}
+.about-info2__title-info p {
+  width: 100%;
+  max-width: 445px;
+}
+.about-info2__title-info h2 {
+  color: $pink-silver-color;
+}

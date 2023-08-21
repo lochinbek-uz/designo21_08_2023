@@ -1,0 +1,166 @@
+.header__container {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  padding-top: 6.4rem;
+  padding-bottom: 6.7rem;
+}
+.sitenav__item {
+  display: flex;
+  gap: 4.2rem;
+}
+.sitenav__linka {
+  color: $black-light-color;
+}
+// hover
+.sitenav__linka {
+  position: relative;
+  font-size: 1.4rem;
+}
+.site-toogler {
+  border: 0;
+  background: none;
+  width: 24px;
+  height: 24px;
+  color: #1d1c1e;
+  display: none;
+}
+.sitenav__linka::before {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  height: 2px;
+  width: 0;
+  background-color: $black-light-color;
+  transition: width 0.3s ease;
+}
+.sitenav__linka:hover::before {
+  width: 100%;
+}
+// hover end
+@media screen and (max-width: 646px) {
+  .sitenav__item {
+    gap: 2rem;
+  }
+  .sitenav__linka {
+    font-size: 1.3rem;
+  }
+}
+@media screen and (max-width: 564px) {
+  .sitenav__item {
+    gap: 1.7rem;
+  }
+  .sitenav__linka {
+    font-size: 1.1rem;
+  }
+}
+@media screen and (max-width: 520px) {
+  .sitenav__item {
+    gap: 1.6rem;
+  }
+  .sitenav__linka {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 490px) {
+  .sitenav__item {
+    gap: 1.2rem;
+  }
+  .sitenav__linka {
+    font-size: 0.8rem;
+  }
+}
+@media screen and (max-width: 375px) {
+  .sitenav {
+    display: none;
+  }
+  .footer__nav {
+    flex-direction: column;
+  }
+  .sitenav2 {
+    display: block;
+  }
+  .sitenav__item {
+    flex-direction: column;
+    gap: 3.2rem;
+  }
+  .logo2 {
+    margin-top: -10rem;
+  }
+  .site-toogler {
+    display: block;
+  }
+  .header__container {
+    padding-top: 3.5rem;
+    padding-bottom: 3.4rem;
+  }
+}
+.site-hero {
+  background-color: $pink-silver-color;
+}
+.site-hero__container {
+  display: flex;
+  align-items: start;
+  justify-content: space-around;
+  background-image: url(../../images/shar.png);
+  background-size: 60%;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+.site-hero__content {
+  padding-top: 14.5rem;
+  padding-bottom: 14.5rem;
+}
+.site-hero__title {
+  width: 100%;
+  max-width: 540px;
+  margin-bottom: 1.1rem;
+  color: $white-color;
+}
+.site-hero__description {
+  width: 100%;
+  max-width: 445px;
+  margin-bottom: 4rem;
+  color: $white-color;
+}
+.site-hero__imges {
+  align-self: flex-end; //   faqat o'zing pastga tush
+}
+@media screen and (max-width: 768px) {
+  .site-hero__container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-size: 100%;
+    background-position: center right -200px;
+    background-repeat: no-repeat;
+  }
+  .site-hero__description {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .site-hero__imges {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .site-hero__content {
+    margin-top: -7rem;
+  }
+}
+@media screen and (max-width: 775px) {
+  .site-hero__container {
+    background-size: 150%;
+    background-position: center right -200px;
+    background-repeat: no-repeat;
+  }
+  .site-hero__title {
+    width: 100%;
+    max-width: 327px;
+    font-size: 2.5rem;
+  }
+  .site-hero__description {
+    width: 100%;
+    max-width: 327px;
+    font-size: 1.3rem;
+  }
+}

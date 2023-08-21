@@ -1,0 +1,129 @@
+.contact {
+}
+.contact__container {
+}
+.contact__registratsiya {
+  width: 1111px;
+  height: 480px;
+  padding-top: 14rem;
+  padding-bottom: 16rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: $pink-silver-color;
+  border-radius: 15px;
+}
+input {
+  color: black;
+}
+.contact__content {
+}
+.contact__content__title {
+  color: $white-color;
+  margin-bottom: 3.2rem;
+}
+.contact__content__description {
+  width: 100%;
+  max-width: 445px;
+  color: $white-color;
+}
+
+.input {
+  display: flex;
+  padding-left: 1.6rem;
+  padding-top: 2.5rem;
+  padding-bottom: 2.1rem;
+  background: none;
+  border: none;
+  caret-color: black;
+  outline: none;
+  cursor: pointer;
+}
+::placeholder {
+  color: $white-color;
+  opacity: 0.5;
+}
+.hr {
+  border-top: none;
+  opacity: 0.5;
+}
+.katta__input {
+  width: 380px;
+  height: 102px;
+  padding-top: 2rem;
+  padding-bottom: 1.2rem;
+  padding: 1.6rem;
+  background: none;
+  border: none;
+  outline: none;
+  caret-color: black;
+  cursor: pointer;
+}
+.regis-but {
+  padding-left: 2rem;
+}
+.site-button {
+  position: relative;
+  right: -23rem;
+}
+@media screen and (max-width: 1383px) {
+  .contact__registratsiya {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 875px) {
+  .contact__registratsiya {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .contact__content__description {
+    font-size: 1.2rem;
+    margin: 0;
+  }
+  .contact__content__title {
+    font-size: 3.8rem;
+    margin: 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  .contact__registratsiya {
+    text-align: left;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 375px) {
+  .contact__registratsiya {
+    text-align: center;
+    flex-direction: column;
+  }
+  .contact__registir {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 429px) {
+  .contact__registir {
+    width: 100%;
+  }
+  .site-button {
+    position: relative;
+    left: -1rem;
+    margin-top: -2.2rem;
+  }
+  .regis-but {
+    padding-right: 20rem;
+  }
+  .contact__content__title {
+    font-size: 2.5rem;
+    margin-top: 5rem;
+  }
+  .contact__content__description {
+    font-size: 1.2rem;
+    padding: 1rem;
+  }
+  .contact__registratsiya {
+    height: 550px;
+  }
+}

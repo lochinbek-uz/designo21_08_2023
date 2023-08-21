@@ -1,0 +1,255 @@
+main {
+  flex-grow: 1;
+}
+.web-design__container {
+  padding-top: 16rem;
+  padding-bottom: 16rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.web-design__right-img {
+  background-image: url(../../images/qoraygan-noutbuk1.png);
+  background-repeat: no-repeat;
+  width: 541px;
+  height: 640px;
+  text-align: center;
+  border-radius: 15px;
+  transition: 0.3s;
+}
+.web-design__right-img:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+.web-design__h2 {
+  color: $white-color;
+  padding-top: 27.3rem;
+}
+// .web-btn {
+// }
+// .btn {
+// }
+// .web-btn__inner-wrapper {
+// }
+// .web-btn__text {
+// }
+// .web-btn__icon {
+// }
+.left-img {
+  background-image: url(../../images/qoraygan-telepon.png);
+  background-repeat: no-repeat;
+  width: 541px;
+  height: 308px;
+  text-align: center;
+  border-radius: 15px;
+  margin-bottom: 2.4rem;
+  transition: 0.3s;
+}
+.left-img:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+.left-img__h2 {
+  color: $white-color;
+  padding-top: 10.7rem;
+}
+.left-img2 {
+  background-image: url(../../images/qoraygan-xxxx.png);
+  background-repeat: no-repeat;
+  width: 541px;
+  height: 308px;
+  text-align: center;
+  border-radius: 15px;
+  transition: 0.3s;
+}
+.left-img2:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+.left-img2__h2 {
+  color: $white-color;
+  padding-top: 10.7rem;
+}
+@media screen and (max-width: 1177px) {
+  .web-design__right-img {
+    margin-right: 1.5rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .web-design__container {
+    flex-direction: column;
+  }
+  .web-design__right-img {
+    background-image: url(../../images/qoraygan-noutbuk1-tablet.png);
+    width: 100%;
+    max-width: 689px;
+    background-repeat: no-repeat;
+    text-align: center;
+  }
+  .web-design__h2 {
+    padding: 0;
+    padding-top: 5.3rem;
+  }
+  .left-img {
+    background-image: url(../../images/qoraygan-telepon-tablet.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    max-width: 689px;
+  }
+  .left-img__h2 {
+    padding: 0;
+    padding-top: 5.3rem;
+  }
+  .left-img2 {
+    background-image: url(../../images/qoraygan-xxxx-table.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    max-width: 689px;
+    text-align: center;
+  }
+  .left-img2__h2 {
+    padding: 0;
+    padding-top: 5.3rem;
+  }
+  .web-design__container {
+    align-items: center;
+  }
+  .web-design__left-img {
+    width: 100%;
+  }
+  .web-design__right-img {
+    margin: 0;
+    margin-bottom: -40rem;
+  }
+  .left-img2 {
+    margin: 0;
+    margin-top: -10rem;
+  }
+}
+.info-img {
+}
+.info-img__container {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 16rem;
+  background-image: url(../../images/shar2.png);
+  background-repeat: no-repeat;
+  background-position: right 0 top 100px;
+  background-size: 70%;
+}
+.info-img__images {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 4.8rem;
+}
+.info-img__title {
+}
+.info-img__h3 {
+  color: $black-light-color;
+  font-weight: normal;
+  letter-spacing: 5px;
+  text-align: center;
+  width: 100%;
+  max-width: 350px;
+  margin-bottom: 3.2rem;
+}
+.info-img__description {
+  width: 100%;
+  max-width: 350px;
+  text-align: center;
+}
+@media screen and (max-width: 768px) {
+  .info-img__content {
+    display: flex;
+    gap: 4.8rem;
+  }
+  .info-img__container {
+    flex-direction: column;
+    background-image: none;
+  }
+  .info-img__description {
+    text-align: left;
+    font-size: 1.2rem;
+    width: 100%;
+    max-width: 439px;
+  }
+  .info-img__h3 {
+    text-align: left;
+  }
+}
+@media screen and (max-width: 375px) {
+  .info-img__content {
+    flex-direction: column;
+  }
+  .info-img__h3 {
+    text-align: center;
+  }
+  .info-img__description {
+    text-align: center;
+  }
+  .info-img__content {
+    margin-bottom: 8rem;
+  }
+}
+// ggdgdg
+.site-article {
+}
+.pink-info {
+  // margin-top: 2rem;
+}
+.pink-info__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 7.2rem;
+  padding-bottom: 7.2rem;
+  background-image: url(../../images/bac-pink-color.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.pink-info__container {
+  margin-bottom: -6.5rem;
+  position: relative;
+  z-index: 1;
+}
+.pink-info__bacground-div {
+}
+.pink-info__content {
+}
+.pink-info__h2 {
+  width: 100%;
+  max-width: 368px;
+  color: $white-color;
+}
+.pink-info__desription {
+  width: 100%;
+  max-width: 459px;
+  color: $white-color;
+}
+@media screen and (max-width: 524px) {
+  .pink-info__h2 {
+    font-size: 3rem;
+  }
+  .pink-info__desription {
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .pink-info__container {
+    flex-direction: column;
+    text-align: center;
+  }
+  .pink-info__h2 {
+    font-size: 4rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .pink-info__desription {
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+  }
+  .pink-button {
+    margin-bottom: 2rem;
+  }
+}
